@@ -1,0 +1,101 @@
+.schedule-section {
+  width: 75%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 1px;
+  margin-top: -22px;
+}
+
+.schedule-header h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Content Layout */
+.schedule-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Kalender Section */
+.calendar-section {
+  width: 100%;
+  flex: 1;
+}
+
+.calendar-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.calendar {
+  background-color: #e6e6e6;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Next Schedule Section */
+.next-schedule-section {
+  width: 100%;
+  flex: 1;
+}
+
+.next-schedule-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.schedule-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.schedule-list li {
+  background-color: #f1f1f1;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Profile Section */
+.profile-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profile-info p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Profile Photo */
+.profile-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  margin-bottom: 10px;
+}

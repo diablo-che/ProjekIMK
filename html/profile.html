@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/profile.css" />
+    <title>A+CADEMY</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>A+CADEDMY</h2>
+      <ul>
+        <li>
+          <a href="../index.html"
+            ><i class="fa-solid fa-house"></i> DASHBOARD</a
+          >
+        </li>
+        <li>
+          <a href="course.html"><i class="fa-solid fa-book"></i> COURSE</a>
+        </li>
+        <li>
+          <a href="message.html"
+            ><i class="fa-solid fa-envelope"></i> MESSAGE</a
+          >
+        </li>
+        <li>
+          <a href="schedule.html"
+            ><i class="fa-solid fa-calendar"></i> SCHEDULE</a
+          >
+        </li>
+      </ul>
+      <ul class="bottom-menu">
+        <li>
+          <a href="setting.html"><i class="fa-solid fa-gear"></i> SETTING</a>
+        </li>
+        <li class="active">
+          <a href="profile.html"><i class="fa-solid fa-user"></i> PROFILE</a>
+        </li>
+      </ul>
+    </div>
+    <div id="profile" class="section">
+      <h1>Profile</h1>
+      <div class="profile-info">
+        <div class="profile-photo">
+          <img
+            id="profileImage"
+            src="https://via.placeholder.com/150"
+            alt="Profile Photo"
+          />
+          <input
+            type="file"
+            id="uploadPhoto"
+            accept="image/*"
+            onchange="previewPhoto(event)"
+          />
+        </div>
+        <p><strong>Name :</strong> Muhammad Maulana</p>
+        <p><strong>Email :</strong> ALfath@upgris.ac.id</p>
+        <p><strong>Member Since :</strong> January 2023</p>
+      </div>
+      <button class="edit-profile-btn">Edit Profile</button>
+    </div>
+  </body>
+  <script>
+    function previewPhoto(event) {
+      const reader = new FileReader();
+      reader.onload = function () {
+        const profileImage = document.getElementById("profileImage");
+        profileImage.src = reader.result;
+      };
+      reader.readAsDataURL(event.target.files[0]);
+    }
+  </script>
+</html>

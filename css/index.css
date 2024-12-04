@@ -1,0 +1,91 @@
+.dashboard {
+  width: 75%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 2px;
+  margin-top: 8px;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-left input {
+  padding: 8px 12px;
+  font-size: 16px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.notification-btn {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.user-info {
+  font-size: 16px;
+}
+
+.user-info span {
+  display: block;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calendar-section,
+.user-online-section {
+  width: 48%;
+}
+
+.calendar-section h2,
+.user-online-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.calendar {
+  width: 100%;
+  background-color: #e6e6e6;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+}
+
+.user-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  background-color: #f1f1f1;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}

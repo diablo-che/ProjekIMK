@@ -1,0 +1,31 @@
+.message-section {
+  width: 70%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.message-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  font-size: 16px;
+}
+
+.message.user-a {
+  background-color: #d9f7be;
+}
+
+.message.user-b {
+  background-color: #bee3f8;
+}

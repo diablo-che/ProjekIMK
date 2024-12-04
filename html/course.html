@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/course.css" />
+    <title>A+CADEMY</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>A+CADEDMY</h2>
+      <ul>
+        <li>
+          <a href="../index.html"
+            ><i class="fa-solid fa-house"></i> DASHBOARD</a
+          >
+        </li>
+        <li class="active">
+          <a href="course.html"><i class="fa-solid fa-book"></i> COURSE</a>
+        </li>
+        <li>
+          <a href="message.html"
+            ><i class="fa-solid fa-envelope"></i> MESSAGE</a
+          >
+        </li>
+        <li>
+          <a href="schedule.html"
+            ><i class="fa-solid fa-calendar"></i> SCHEDULE</a
+          >
+        </li>
+      </ul>
+      <ul class="bottom-menu">
+        <li>
+          <a href="setting.html"><i class="fa-solid fa-gear"></i> SETTING</a>
+        </li>
+        <li>
+          <a href="profile.html"><i class="fa-solid fa-user"></i> PROFILE</a>
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+      <h1>Welcome to A+CADEDMY Course</h1>
+      <div class="course-list">
+        <div class="course-card">
+          <div class="course-thumbnail"></div>
+          <button class="continue-btn" onclick="continueCourse('Course 1')">
+            Lanjutkan Course
+          </button>
+        </div>
+        <div class="course-card">
+          <div class="course-thumbnail"></div>
+          <button class="continue-btn" onclick="continueCourse('Course 2')">
+            Lanjutkan Course
+          </button>
+        </div>
+        <div class="course-card">
+          <div class="course-thumbnail"></div>
+          <button class="continue-btn" onclick="continueCourse('Course 3')">
+            Lanjutkan Course
+          </button>
+        </div>
+        <div class="course-card">
+          <div class="course-thumbnail"></div>
+          <button class="continue-btn" onclick="continueCourse('Course 4')">
+            Lanjutkan Course
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function continueCourse(courseName) {
+      alert("Anda melanjutkan " + courseName);
+    }
+  </script>
+</html>

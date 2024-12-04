@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>A+CADEMY</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>A+CADEDMY</h2>
+      <ul>
+        <li class="active">
+          <a href="index.html"><i class="fa-solid fa-house"></i> DASHBOARD</a>
+        </li>
+        <li>
+          <a href="html/course.html"><i class="fa-solid fa-book"></i> COURSE</a>
+        </li>
+        <li>
+          <a href="html/message.html"
+            ><i class="fa-solid fa-envelope"></i> MESSAGE</a
+          >
+        </li>
+        <li>
+          <a href="html/schedule.html"
+            ><i class="fa-solid fa-calendar"></i> SCHEDULE</a
+          >
+        </li>
+      </ul>
+      <ul class="bottom-menu">
+        <li>
+          <a href="html/setting.html"
+            ><i class="fa-solid fa-gear"></i> SETTING</a
+          >
+        </li>
+        <li>
+          <a href="html/profile.html"
+            ><i class="fa-solid fa-user"></i> PROFILE</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="dashboard">
+      <div class="header">
+        <div class="header-left">
+          <input type="text" id="search" placeholder="Search..." />
+        </div>
+        <div class="header-right">
+          <button class="notification-btn">
+            <i class="fa fa-bell"></i> Notifikasi
+          </button>
+          <div class="user-info">
+            <span id="userName">Maulana</span>
+            <span id="npmNumber">NPM : 23670000</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="calendar-section">
+          <h2>Calendar</h2>
+          <div class="calendar-container">
+            <div class="calendar calendar-top">
+              <p>Calendar</p>
+            </div>
+          </div>
+          <h2>News</h2>
+          <div class="calendar-container">
+            <div class="calendar calendar-top">
+              <p>Berita hari ini terkait pendidikan</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="user-online-section">
+          <h2>User Online</h2>
+          <ul class="user-list">
+            <li>Steven</li>
+            <li>Owen</li>
+            <li>Muhammad Zahran</li>
+            <li>Al Fath</li>
+            <li>Lisa</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
